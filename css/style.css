@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+    flex-direction: row-reverse;
+    background-color: rgba(40, 5, 5, 0.750);
+    height: 100px;
+ 
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+    list-style: none;
+}
+header ul a{
+    text-decoration: none;
+    color: white;
+}
+header h1{
+    font-weight: bolder;
+    color: white;
+}
+.a1{
+    background-color: rgba(40, 5, 5, 0.700);
+    height: 500px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a1 img{
+    height: 300px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 200px;
+}
+.a1 ul li{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    list-style: none;
+}
+.a2{
+    height: 150px;
+    background-color: rgba(40, 5, 5, 0.650);
+}
+.a2 p{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.a2 ol li{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.a3{
+height: 200px;
+background-color: rgba(40, 5, 5, 0.620);
+
+}
+.a3 p{
+    font-size: xx-large;
+    font-weight: bolder;
+padding:30px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.a3 ul li{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a4{
+    height: 200px;
+    background-color: rgba(40, 5, 5,0.600);
+}
+.a4 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.a4 ul li{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a5{
+    height: 30px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(40, 5, 5, 0.580);
+    font-size: larger;
+    
+}
+.a5 ul li a{
+color: white;
+text-decoration: none;
+}
+.a5 ul li{
+    list-style: none;
+}
